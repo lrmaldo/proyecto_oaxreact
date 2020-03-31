@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "CV19 Oaxaca",
+    "slug": "CV19OAx",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/CVO1.png",
+    "splash": {
+      "image": "./assets/icon_splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lrmaldo.proyectoax",
+      "config": {
+        "googleMapsApiKey":  "AIzaSyDn-SItPueeJksJgURjiGNpeHjhzCef9iM"  
+     }
+    },
+    "android": {
+      "package": "com.lrmaldo.proyectoax",
+      "config": {
+        "googleMaps": { "apiKey": "AIzaSyDn-SItPueeJksJgURjiGNpeHjhzCef9iM" }   
+     }
+    }
+  }
+}
